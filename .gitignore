@@ -1,0 +1,24 @@
+# Python byte-code / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Data runtime logs & temp buffers
+data/simulated_stream.jsonl
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary conversion scripts
+convert_md_to_docx.py
